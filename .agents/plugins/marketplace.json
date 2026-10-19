@@ -1,0 +1,20 @@
+{
+  "name": "jlopresti-skills",
+  "interface": {
+    "displayName": "jlopresti/skills"
+  },
+  "plugins": [
+    {
+      "name": "refactoring-guru",
+      "source": {
+        "source": "local",
+        "path": "./plugins/refactoring-guru"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

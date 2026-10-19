@@ -1,0 +1,12 @@
+{
+  "name": "jlopresti-skills",
+  "owner": {
+    "name": "Julien"
+  },
+  "plugins": [
+    {
+      "name": "refactoring-guru",
+      "source": "./plugins/refactoring-guru"
+    }
+  ]
+}
