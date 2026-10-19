@@ -21,3 +21,5 @@ $refactoring-guru-design-patterns Compare State et Strategy pour ce workflow. É
 ```
 
 Les références contiennent des critères de décision originaux et des liens vers les pages publiques du site. Consultez seulement les familles utiles à la tâche. Les noms canoniques suivent les catalogues de [code smells](https://refactoring.guru/refactoring/smells), de [refactorings](https://refactoring.guru/refactoring/techniques) et de [design patterns](https://refactoring.guru/design-patterns/catalog), consultés le 19 octobre 2026.
+
+Un [pilote de fiches autonomes](comparisons/reference-depth/README.md) détaille Strategy, Long Method et Extract Method avec des exemples avant/après, les contrôles exécutables et la comparaison avec les versions initiales.

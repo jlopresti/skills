@@ -10,9 +10,11 @@ Original counterexample. A shipping service has two stable formulas, one caller,
 
 ## Keep selection and execution contracts explicit
 
-The original example uses positive integer grams and returns integer cents. Both implementations accept the same public arguments. Each rate accepts grams, returns cents, and leaves caller data unchanged. Shared validation precedes selection. Unknown services raise `ValueError`, without an event. One successful quote appends one event after calculation. Existing events retain their order.
+The original example uses built-in positive integer grams, built-in service strings, and an ordinary event list. It returns integer cents. Both implementations accept the same public arguments. Each rate accepts grams, returns cents, and leaves caller data unchanged. Shared validation precedes selection. Unknown services raise `ValueError`, without an event. One successful quote appends one event after calculation. Existing events retain their order.
 
 The public `quote_shipping` function owns service selection. `_quote_with` owns calculation and the shared success event. The core accepts a callable and never inspects its identity. Moving selection into every strategy would spread service names across algorithms. A registry centralizes selection but still changes when a service name is added.
+
+Selection can itself be observable. Preserve the number and timing of comparisons or lookups unless the input contract makes them pure. In a batch, choosing once can remove comparisons that previously happened for every element. A string subclass can define effectful equality or raise on a later comparison. A dictionary also introduces hashing requirements. Keep the original comparison route when those behaviors are supported or uncertain. Separating algorithms does not require caching the selection.
 
 In a real integration, establish the common currency, rounding rule, accepted inputs, failure semantics, cancellation, and permitted mutations before substituting algorithms. The same function signature does not establish substitutability. A provider that returns dollars, writes an invoice, or catches errors differently violates this example's contract.
 

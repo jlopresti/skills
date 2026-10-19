@@ -1,0 +1,36 @@
+{
+  "phase": "post-pilot clarification",
+  "model": "gpt-6-luna",
+  "effort": "high",
+  "documents": {
+    "refactoring-guru-design-patterns/SKILL.md": "03cbf80fff2036a6936690e44ade01ba78df0fcb1c156d2152c5a38d8e9ea048",
+    "refactoring-guru-code-smells/SKILL.md": "f34579e7841c62869df8d17e50f04105bd1f394c553b0073088a3957e52434d6",
+    "refactoring-guru-refactoring/SKILL.md": "73f0460413c0a1bf679a81ac78225f8a930a9c8b3983d1294b5bf5e155421699",
+    "refactoring-guru-refactoring/references/generalization.md": "488cbf746d74852a1220ced362039f3fcc0ccc1369776b77184be80440c6116e",
+    "refactoring-guru-refactoring/references/moving-features.md": "7ba817f2deccbeba3545e2eb8ee33813782be6105336d0a28f5cc703c990d2b6",
+    "refactoring-guru-refactoring/references/composing-methods.md": "f73c8276ae9a42b3421095ef5c9980e34820df562f174c45a37877dab723543b",
+    "refactoring-guru-refactoring/references/organizing-data.md": "fa68cfdded7f55a355d4a4ac3b7b58b725e1404020414699d081e3be73e73490",
+    "refactoring-guru-refactoring/references/conditional-expressions.md": "a5b631a7c79eb479d9bd9c66e64c7cd1dfc498e07abb0b846b1d561854d988e7",
+    "refactoring-guru-refactoring/references/extract-method.md": "37ea4fbd2ec196b41063050a5b984a14c690017de02f6a2b2eef9c4dfd846250",
+    "refactoring-guru-refactoring/references/method-calls.md": "50279f57ce020427c3a5506b45191fb79d77a262e09ce61961f294c01127b34c",
+    "refactoring-guru-refactoring/agents/openai.yaml": "04247f9f566f3dcaf15051d90ee859e70f126440773ac87698564505860039be",
+    "refactoring-guru-code-smells/references/long-method.md": "e173c8c1ba88659a76914f0cc5c5ca4f07b82d9e57b5aac1f8cd4b2c3e4c5c0a",
+    "refactoring-guru-code-smells/references/bloaters.md": "1b1d5b5c79ded02799bfae0cb423bb3f7b9c94e7ae149431578e5aa6e32889d7",
+    "refactoring-guru-code-smells/references/object-orientation-abusers.md": "fa92b6d87a2793063725b0791b383e8279f05f40ca5348f8c6863632ba682318",
+    "refactoring-guru-code-smells/references/dispensables.md": "4116758472b91c660a882b8ac74eed17ec6bbc88d9ce0e94a97e4a878a6985cc",
+    "refactoring-guru-code-smells/references/change-preventers.md": "c8d8635a9953a545a73d71782d569a05893735c5330c9fab154af19ec56d0dbd",
+    "refactoring-guru-code-smells/references/couplers.md": "5aa1b23c7bbec68bf36e77ccc5c7eecf507b01bc5e1e8934471890635f1216f5",
+    "refactoring-guru-code-smells/agents/openai.yaml": "8ba0a09458a1cabdbe10ec7a1158fb3aa7e145038aa1438dcf7f7c8a55840732",
+    "refactoring-guru-design-patterns/references/behavioral.md": "858e8b75b5a6279da6704c11911964bf5251f7d9236c1a11e89173baf211a470",
+    "refactoring-guru-design-patterns/references/structural.md": "caffbd013a992ec427355ada0b63f09e9b86482dc6f9a0659947f1eca277e3fc",
+    "refactoring-guru-design-patterns/references/strategy.md": "b33ea87dcb0cb94274da3806efa7f94057a1c307001df19ff8e62a1f7f283406",
+    "refactoring-guru-design-patterns/references/creational.md": "99b0fc8466458e889f01e9950865b175332c15cfd0b5db05fbce55f1cd935acf",
+    "refactoring-guru-design-patterns/agents/openai.yaml": "6d4ca35c3520ca6bda8acdff657607f4241028fc5e8cc19d46d8df3810911631"
+  },
+  "immutable": {
+    "AGENTS.md": "e5e4df4a3efd50da085d7a76a8a83d68a24ada4758a42a729c5f83b58fb6b988",
+    "read_skill.py": "1f3e38379a4e97e1157e44c382ecdc5d30268237e1adadd755acbb307218d9c7",
+    "request.txt": "417d19042204a851cc937636f52d6bf8df2735c3ac21493e5bbed22b3201e0dd",
+    "audit.py": "a86f43d2d6474e0680eb025e3e3402349630ac921a15fd3f266a1c8b1dc626b0"
+  }
+}

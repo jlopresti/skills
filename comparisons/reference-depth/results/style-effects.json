@@ -1,0 +1,161 @@
+{
+  "original": {
+    "result": null,
+    "error": [
+      "RuntimeError",
+      "comparison failed"
+    ],
+    "events": [
+      [
+        "yield",
+        "first"
+      ],
+      [
+        "equals",
+        "label"
+      ],
+      [
+        "emit",
+        "First / FIRST"
+      ],
+      [
+        "yield",
+        "second"
+      ],
+      [
+        "equals",
+        "label"
+      ]
+    ]
+  },
+  "projects": {
+    "cedar": {
+      "matches_original": false,
+      "observed": {
+        "result": [
+          "First / FIRST",
+          "Second / SECOND"
+        ],
+        "error": null,
+        "events": [
+          [
+            "yield",
+            "first"
+          ],
+          [
+            "equals",
+            "label"
+          ],
+          [
+            "emit",
+            "First / FIRST"
+          ],
+          [
+            "yield",
+            "second"
+          ],
+          [
+            "emit",
+            "Second / SECOND"
+          ]
+        ]
+      }
+    },
+    "willow": {
+      "matches_original": false,
+      "observed": {
+        "result": [
+          "First / FIRST",
+          "Second / SECOND"
+        ],
+        "error": null,
+        "events": [
+          [
+            "yield",
+            "first"
+          ],
+          [
+            "equals",
+            "label"
+          ],
+          [
+            "emit",
+            "First / FIRST"
+          ],
+          [
+            "yield",
+            "second"
+          ],
+          [
+            "emit",
+            "Second / SECOND"
+          ]
+        ]
+      }
+    },
+    "birch": {
+      "matches_original": false,
+      "observed": {
+        "result": [
+          "First / FIRST",
+          "Second / SECOND"
+        ],
+        "error": null,
+        "events": [
+          [
+            "yield",
+            "first"
+          ],
+          [
+            "equals",
+            "label"
+          ],
+          [
+            "emit",
+            "First / FIRST"
+          ],
+          [
+            "yield",
+            "second"
+          ],
+          [
+            "emit",
+            "Second / SECOND"
+          ]
+        ]
+      }
+    },
+    "maple": {
+      "matches_original": true,
+      "observed": {
+        "result": null,
+        "error": [
+          "RuntimeError",
+          "comparison failed"
+        ],
+        "events": [
+          [
+            "yield",
+            "first"
+          ],
+          [
+            "equals",
+            "label"
+          ],
+          [
+            "emit",
+            "First / FIRST"
+          ],
+          [
+            "yield",
+            "second"
+          ],
+          [
+            "equals",
+            "label"
+          ]
+        ]
+      }
+    }
+  }
+}
