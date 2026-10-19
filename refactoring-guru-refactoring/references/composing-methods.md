@@ -4,7 +4,7 @@ Canonical names follow [Refactoring Guru's method composition family](https://re
 
 | Technique | Selection cue |
 | --- | --- |
-| [Extract Method](https://refactoring.guru/extract-method) | A fragment has a coherent name. |
+| [Extract Method](extract-method.md) | A fragment has a coherent name. |
 | [Inline Method](https://refactoring.guru/inline-method) | A wrapper hides no useful decision. |
 | [Extract Variable](https://refactoring.guru/extract-variable) | An expression needs a name. |
 | [Inline Temp](https://refactoring.guru/inline-temp) | A name obscures a trivial expression. |

@@ -29,6 +29,8 @@ Read only the family needed for the current decision. For a comparison across fa
 - For incompatible interfaces, independent dimensions, trees, wrappers, subsystem access, or shared object data, read [structural patterns](references/structural.md).
 - For requests, traversal, collaboration, notifications, state transitions, algorithm variation, or operations over object types, read [behavioral patterns](references/behavioral.md). This includes State versus Strategy.
 
+When selecting or implementing Strategy, read the self-contained [Strategy mechanics and examples](references/strategy.md).
+
 ## Apply and verify the decision
 
 For code changes, map the chosen roles to existing symbols before adding new ones. Keep dependencies, ownership, and initialization explicit. Preserve callers, error behavior, side effects, and ordering unless the requested behavior changes them.

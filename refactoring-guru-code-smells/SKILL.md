@@ -24,6 +24,8 @@ Read only the references needed by the scope:
 
 The catalog uses object-oriented terms. Match its concepts to the repository's paradigm. Functions over records, algebraic data types, and modules can express sound designs without classes. Assess where invariants and dependencies live.
 
+For a Long Method hypothesis or its extraction boundary, read the self-contained [Long Method diagnosis and examples](references/long-method.md).
+
 ## Report the decision
 
 For each demonstrated finding, give the canonical smell name, exact file and line evidence, the maintenance consequence, and the relevant counterexample you ruled out. Suggest the smallest useful response and its tradeoff. Link the matching catalog entry. Rank findings by the cost or risk supported by the evidence. A smell alone establishes no bug severity.
