@@ -1,0 +1,9 @@
+{
+  "name": "refactoring-guru",
+  "version": "0.1.0",
+  "description": "Code smells, refactoring, and design pattern guidance.",
+  "interface": {
+    "displayName": "Refactoring Guru",
+    "shortDescription": "Code smells, refactoring, and design patterns."
+  }
+}
