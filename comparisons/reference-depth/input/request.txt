@@ -1,9 +1,0 @@
-Je reprends ce petit outil Python utilisé pour préparer les tournées du dépôt. Peux-tu faire une passe de maintenance ciblée ?
-
-Dans strategy.py, render_batch choisit le même traitement pour tout un lot, mais ses deux algorithmes restent mêlés à la boucle. Sépare-les avec une approche Strategy proportionnée à ce module. Des fonctions suffisent si elles rendent le choix et l'ajout d'un style plus clairs. Garde la signature publique et le comportement actuel, y compris avec un flux d'éléments et un rappel qui peut avoir des effets ou lever une erreur.
-
-Dans refactoring.py, extrais la boucle de préparation de settle dans une fonction nommée. Le total calculé et les lignes retenues doivent rester disponibles pour la suite. Nous lui passons parfois un générateur à passage unique et les mêmes dictionnaires circulent ailleurs. Préserve leur identité, les mises à jour locales ainsi que l'ordre des effets et des erreurs.
-
-Pour audit.py, le responsable d'exploitation veut pouvoir changer les remises dans finalize_round sans devoir retravailler la réservation du stock ni la présentation des reçus. Relis ce module, indique où un diagnostic Long Method est utile et propose une découpe adaptée aux difficultés concrètes. Cette partie est un audit uniquement. Garde audit.py strictement intact.
-
-Tu peux modifier strategy.py et refactoring.py et ajouter notes.md. Dans notes.md, donne les constats utiles et les raisons de tes choix de conception, de façon concise. Termine par une courte réponse en français. Inutile de raconter ton raisonnement pas à pas ou de lister les fichiers que tu as lus. Python standard uniquement.

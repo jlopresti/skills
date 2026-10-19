@@ -27,8 +27,6 @@ Read only the reference matching the affected structure. Each contains a compact
 - For signatures, visibility, construction, and error contracts, read [method calls](references/method-calls.md).
 - For inheritance and shared interfaces, read [generalization](references/generalization.md).
 
-For Extract Method, read the self-contained [extraction mechanics and examples](references/extract-method.md) before moving code.
-
 Name the selected technique, why it fits this code, and the simpler alternative. An existing structure can remain when the alternative adds more coordination than it removes. Resolve a meaningful semantic uncertainty before choosing the transformation.
 
 The source names often describe object-oriented code. Adapt their intent to the language. A local function extraction does not require a class. A closed exhaustive match does not require polymorphism.

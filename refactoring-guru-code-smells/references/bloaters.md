@@ -10,8 +10,6 @@ A function mixes steps with different purposes or keeps unrelated state alive ac
 
 A cohesive algorithm, linear orchestration, or declarative table may remain readable in one function. Splitting it into fragments that share many locals can increase the reader's work. Judge responsibilities and state, without a line-count cutoff.
 
-For a detailed Long Method diagnosis and original before/after examples, read [Long Method](long-method.md).
-
 ## Large Class
 
 [Catalog entry](https://refactoring.guru/smells/large-class).

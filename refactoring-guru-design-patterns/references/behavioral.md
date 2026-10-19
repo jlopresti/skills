@@ -15,8 +15,6 @@ These original selection notes follow the ten behavioral entries in the [Refacto
 | [Template Method](https://refactoring.guru/design-patterns/template-method) | An established inheritance API fixes an algorithm's sequence while subclasses customize specific steps. | Use a function with callbacks or composed operations when inheritance is unnecessary. Avoid overridable hooks with undocumented ordering assumptions. Use Strategy when clients need to swap behavior independently of the subclass. |
 | [Visitor](https://refactoring.guru/design-patterns/visitor) | A stable set of element types needs frequent new operations, and changing each element for every operation is costly. | Prefer pattern matching over a closed data type or an ordinary traversal when clearer. Adding element types changes visitors. Visitor is a poor fit when element kinds change more often than operations. |
 
-For Strategy implementation mechanics and original before/after examples, read [Strategy](strategy.md).
-
 ## Distinguish State from Strategy
 
 State represents where an object is in a lifecycle. A transition can change which operations are legal and what later events mean. Strategy represents the chosen way to perform a task. Strategies can remain independent of one another.
